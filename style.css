@@ -205,3 +205,63 @@ header{
     font-size: 16px;
     font-weight: 400;
 }
+
+/* discount seciton */
+
+.discount{
+    background-color: #9376E0;
+    padding: 50px 0;
+}
+
+.discount-container{
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.discount-img{
+    width: 50%;
+    position: relative;
+
+}
+
+.discount-img img{
+    width: 60%;
+    display: block;
+    margin: auto;
+    
+}
+.percent{
+    padding: 30px 22px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5%;
+    right: 23%;
+    background-color: #F6FFA6;
+    font-size: 16px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+
+.discount-title{
+    width: 50%;
+}
+.discount-title h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+.discount-title p{
+    font-weight: 400;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.dis-btn{
+    padding: 12px 22px;
+    border: 1px solid white;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
