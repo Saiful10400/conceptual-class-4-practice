@@ -268,7 +268,9 @@ header{
 
 /* customer reviwe section */
 
-
+.review{
+    padding: 30px 0 100px;
+}
 .review-container{
     display: flex;
     flex-wrap: wrap;
@@ -306,4 +308,43 @@ header{
 .review-box p{
     font-size: 16px;
     font-weight: 400;
+}
+
+/* footer section */
+.footer{
+    text-align: center;
+    background-color: #9376E0;
+    padding: 110px 0;
+}
+
+.footer-container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.foot-img{
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.foot-img img{
+    width: 100px;
+}
+
+.foot-img h2{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.foot-img h2 span{
+    color: #E893CF;
+}
+
+.footer-container p{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 18px;
+    color: white;
 }
