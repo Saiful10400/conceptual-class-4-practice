@@ -4,6 +4,9 @@
     .nav-manu,.nav{
         flex-direction: column;
     }
+    .nav{
+        padding-bottom: 20px;
+    }
 
     .nav-img{
         justify-content: center;
@@ -20,5 +23,15 @@
 
 /*  */
 
+.banner{
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 0;
+    
+}
+
+.banner-title,.banner-img{
+    width: 100%;
+}
 
 }
