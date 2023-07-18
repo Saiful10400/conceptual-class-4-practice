@@ -34,4 +34,17 @@
     width: 100%;
 }
 
+
+/* product container */
+
+
+.products{
+    grid-template-columns: 80%;
+    justify-content: center;
+}
+
+
+
+
+
 }
